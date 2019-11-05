@@ -1,4 +1,6 @@
+import java.io.DataInputStream;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.InputStream;
 
 public class ByteArray {
@@ -11,5 +13,16 @@ public class ByteArray {
         }
 
 
+//        try {
+//            DataInputStream out = new DataOutputStream(
+//                    new FileOutputStream("test.data");
+//            )
+//        } catch () {
+//
+//        }
+
+
     }
+
+
 }

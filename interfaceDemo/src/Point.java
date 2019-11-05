@@ -7,7 +7,10 @@ public class Point implements MyComparable {
     }
 
     public static void main(String[] args) {
-        MyComparable m = new Point();
+        Integer i = new Integer(20000);
+        Integer.reverseBytes(i);
+        Integer.reverse(i);
+
 
     }
 
